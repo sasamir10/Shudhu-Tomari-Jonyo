@@ -10,7 +10,7 @@ body{
     background: linear-gradient(135deg, #a18cd1, #fbc2eb);
     background-repeat: no-repeat;
     color: #2c2c2c;
-    height: 150vh;
+    height: 120vh;
     /* overflow: hidden; */
     position: relative;
 }
@@ -111,4 +111,5 @@ button:hover{
     #quote-box{
         width: 100%;
     }
+
 }
