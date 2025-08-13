@@ -1,0 +1,32 @@
+.rain-container{
+    display: none;
+}
+
+.displayRain{
+    display: initial;
+}
+
+/* .raindrop{
+    position: absolute;
+    animation: fall linear infinite;
+    z-index: 0;
+} */
+
+.raindrop{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #8e66ea; /* you can randomize in JS */
+    animation: fall 3s linear infinite;
+    z-index: 0;
+}
+
+
+@keyframes fall{
+    0%{
+        transform: translateY(-100vh) rotate(0deg);
+    }
+    100%{
+        transform: translateY(100vh) rotate(720deg);
+    }
+}
