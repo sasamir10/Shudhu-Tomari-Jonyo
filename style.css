@@ -100,7 +100,7 @@ button:hover{
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 412px){
     body{
         height: 170vh;
         padding: 0 5px;
@@ -108,8 +108,9 @@ button:hover{
     }
 
     #quote-box{
-        width: 340px;
+        width: 350px;
     }
 }
+
 
 
