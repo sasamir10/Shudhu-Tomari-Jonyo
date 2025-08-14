@@ -2,7 +2,7 @@ const name = "Samiya";
 document.getElementById("name").innerText = name;
 
 const quotes = [
-    "I saved my wish for the very last moment so yours can be the one that stays with you after crowd fades - Happy Birthday😊",
+    "I saved my wish for the very last moment so yours can be the one that stays with you after crowd fades - Happy Birthday😊. Tap for more...",
     "May you Fullfil your all Dreams💖",
     "Be a best Pharmacist.",
     "Keep shine like a Diamond Sky✨",
@@ -52,3 +52,4 @@ function showQuote(){
     quoteBox.style.display = 'block';
     index = (index + 1) % quotes.length; // loops back to start
 }
+
