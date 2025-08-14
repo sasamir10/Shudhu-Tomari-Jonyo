@@ -6,27 +6,17 @@
     display: initial;
 }
 
-/* .raindrop{
+.raindrop{
     position: absolute;
     animation: fall linear infinite;
     z-index: 0;
-} */
-
-.raindrop{
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    background-color: #8e66ea; /* you can randomize in JS */
-    animation: fall 3s linear infinite;
-    z-index: 0;
 }
-
 
 @keyframes fall{
     0%{
-        transform: translateY(-100vh) rotate(0deg);
+        transform: translateY(-100vh);
     }
     100%{
-        transform: translateY(100vh) rotate(720deg);
+        transform: translateY(100vh);
     }
 }
