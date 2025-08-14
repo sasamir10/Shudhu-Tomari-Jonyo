@@ -10,7 +10,7 @@ body{
     background: linear-gradient(135deg, #a18cd1, #fbc2eb);
     background-repeat: no-repeat;
     color: #2c2c2c;
-    height: 120vh;
+    height: 115vh;
     /* overflow: hidden; */
     position: relative;
 }
@@ -91,7 +91,6 @@ button:hover{
     display: none;
 }
 
-/* Animations */
 @keyframes bounce{
     0%, 100% {
         transform: translateY(0);
@@ -111,5 +110,4 @@ button:hover{
     #quote-box{
         width: 100%;
     }
-
 }
