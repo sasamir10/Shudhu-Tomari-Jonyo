@@ -100,7 +100,7 @@ button:hover{
     }
 }
 
-@media (max-width: 412px){
+@media (max-width: 480px){
     body{
         height: 170vh;
         padding: 0 5px;
@@ -111,6 +111,3 @@ button:hover{
         width: 350px;
     }
 }
-
-
-
